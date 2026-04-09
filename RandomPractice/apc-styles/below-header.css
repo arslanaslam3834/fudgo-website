@@ -1,0 +1,61 @@
+.top-food-categories{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+margin-right: 0px;
+margin-left: 0px;
+}
+
+
+.pizza,.burger,.biryani,.chicken,.shawarma,.cake{
+  height: 270px;
+  cursor: pointer;
+  margin-right: 15px;
+  margin-top: 50px;
+}
+
+.heading-text{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.heading-section{
+  background-color: rgb(251, 99, 14);
+  padding: 10px;
+  color: white;
+  margin-top: 50px;
+
+}
+
+.food-categories-section{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.text{
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  font-size: 16px;
+}
+
+.city-name-text{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 100px;
+  margin-left: 0px;
+  color: gray;
+}
+
+
+
+
+
+
+
+
+

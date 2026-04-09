@@ -1,0 +1,116 @@
+
+.outer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  border-radius: 0px;
+  padding-top: 100px;
+  background-color: white;
+  border-radius: 50px;
+
+}
+
+
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-cards-one, .bottom-cards-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 6px dashed rgb(251,99,14);
+  border-radius: 50px;
+  margin-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 244, 239),
+    rgb(255, 224, 208)); 
+  }
+
+.bottom-cards-one{
+margin-right: 50px;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+
+.daska-image {
+  height: 200px;
+  border-radius: 20px;
+}
+
+.alipur-image {
+  height: 200px;
+  border-radius: 20px;
+}
+
+.city-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.city-sub-heading-two {
+  font-size: 16px;
+  color: rgb(89, 99, 120);
+  width: 300px;
+  text-align: center;
+}
+
+.city-sub-heading-one {
+  font-size: 16px;
+  color: rgb(89, 99, 120);
+  width: 280px;
+  text-align: center;
+}
+
+
+
+.top-heading {
+  font-size: 65px;
+  font-weight: bold;
+  color: rgb(251,99,14);
+  margin-bottom: 0px;
+  
+}
+
+.top-sub-heading {
+  font-size: 35px;
+  font-weight: bold;
+  color: rgb(89, 99, 120);
+  margin-top: 0px;
+  width: 400px;
+  text-align: center;
+}
+
+.restaurants-list-link {
+  text-decoration: underline;
+  color: rgb(251,99,14);
+  font-weight: bold;
+}
+
+
+
+
+
+
+

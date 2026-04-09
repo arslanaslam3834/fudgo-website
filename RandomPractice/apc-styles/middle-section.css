@@ -1,0 +1,98 @@
+.restaurant-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 80px;
+}
+
+
+.restaurant-pic {
+ width: 560px;
+ height: 350px;
+ object-fit: cover;
+ border-radius: 10px;
+}
+
+.restaurant-additional-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 0px;
+
+
+}
+
+
+.rating-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 0px;
+  padding-right: 0px;
+  padding-left: 150px;
+  padding-bottom: 50px;
+  
+}
+
+.stars {
+  --star-size: 22px;
+  --star-color: #ccc;
+  --star-background: rgb(251, 99, 14);
+
+  display: inline-block;
+  font-size: var(--star-size);
+  font-family: Times; /* needed for star rendering */
+  line-height: 1;
+}
+
+.stars::before {
+  content: "★★★★★";
+  letter-spacing: 3px;
+  background: linear-gradient(
+    90deg,
+    var(--star-background) calc(var(--rating) / 5 * 100%),
+    var(--star-color) calc(var(--rating) / 5 * 100%)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.number-rating {
+  margin-right: 8px;
+}
+
+.restaurant-name{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 8px;
+}
+
+.restaurant-category {
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.b1, .b2 {
+  background-color: rgb(251,99,14);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.b1 {
+  margin-right: 8px;
+  width: 150px;
+}
+
+
+
+
+

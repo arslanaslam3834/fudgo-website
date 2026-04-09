@@ -1,0 +1,57 @@
+.footer{
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  background-color: white;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgb(240, 240, 240);
+  margin-top: 300px;
+  border-bottom-width: 0px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(240, 240, 240);
+}
+
+
+
+.left-hand-side{
+   display: flex;
+  align-items: center;
+}
+
+.logo{
+  height: 100px;
+  margin-left: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.download-app,.social-links{
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(31, 42, 68);
+}
+
+
+.app-store{
+  height: 50px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.social-profiles{
+  height: 50px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
